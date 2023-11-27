@@ -18,6 +18,7 @@ async function setupNodeEvents(on, config) {
 }
 
 module.exports = defineConfig({
+  projectId: 'x24fux',
   e2e: {
     baseUrl: "https://learn.cypress.io/",
     specPattern: "**/*.feature",
