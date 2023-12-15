@@ -10,5 +10,10 @@ jobs:
           browser: chrome
           headed: true
         env:
+<<<<<<< HEAD
             CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}   
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+=======
+            CYPRESS_RECORD_KEY: ${{secrets.CYPRESS_RECORD_KEY}}   
+            GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+>>>>>>> 49cfa60cb23b03b0884b00cdb2acf6b5f46c185b
