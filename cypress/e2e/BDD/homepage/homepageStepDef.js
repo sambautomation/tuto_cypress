@@ -1,7 +1,7 @@
 const {Given, When, Then } = require("@badeball/cypress-cucumber-preprocessor");
 
 /*
-  Scenario: Acceder aux cours 
+  Scenario: Acceder aux cours test
 */
 
 When('I click on "Start Learning"', function ()  {
