@@ -4,6 +4,8 @@ const {Given, When, Then } = require("@badeball/cypress-cucumber-preprocessor");
   Scenario: Acceder aux cours test
 */
 
+
+@TC00
 When('I click on "Start Learning"', function ()  {
   cy.get(this.data.learningButton).click()
 })

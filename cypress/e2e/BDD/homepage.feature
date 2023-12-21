@@ -1,3 +1,7 @@
+
+@TC00
+
+
 Feature: Navigation sur le site de cypress
 
     Scenario: Acceder aux cours 
